@@ -8,7 +8,7 @@
   "repository": "googleapis/gce-images",
   "private": true,
   "scripts": {
-    "test": "mocha system-test"
+    "test": "mocha system-test --timeout=600000"
   },
   "dependencies": {
     "gce-images": "^1.0.0"
